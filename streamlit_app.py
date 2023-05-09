@@ -40,9 +40,9 @@ streamlit.text(my_data_row)
 
 add_my_fruit = streamlit.text_input("What fruit would you like to add?")
 if streamlit.button("Add Fruit"):
-   if add_my_fruit:
-       my_fruit_list.append(add_my_fruit)
-       st.write("Thanks for adding " + add_my_fruit )
-   else:
-       st.write("Please enter a fruit to add to the list.")
+  if add_my_fruit:
+    my_fruit_list.append(add_my_fruit)
+    st.write("Thanks for adding " + add_my_fruit )
+  else:
+    st.write("Please enter a fruit to add to the list.")
 
